@@ -24,16 +24,6 @@ ultralytics/
 
 Only modules and model configurations used by the paper should be included in the public release. If custom modules require registration or parsing changes, retain the corresponding modified files under `ultralytics/nn/` as well.
 
-## Environment
-
-Use the Python and PyTorch versions recorded in `requirements.txt` (to be added with the tested environment). From the repository root, install the package in editable mode:
-
-```bash
-pip install -e .
-```
-
-Before release, record the tested Python, PyTorch, CUDA, and package versions and include them in `requirements.txt` or an environment file.
-
 ## Datasets
 
 Datasets are not bundled with this repository. Download RDD2022 and CRACK500 from their authorized sources and prepare them locally.
